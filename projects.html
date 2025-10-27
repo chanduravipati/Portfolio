@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Inline CSS to style project links -->
+  <style>
+    .project-links a {
+      color: #35cedf;            /* Bright blue for visibility */
+      text-decoration: none;     /* Removes underline */
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .project-links a:hover {
+      color: #ffffff;            /* White on hover */
+      text-shadow: 0 0 10px #00e5ff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Tech Creator</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home">
+    <div class="intro project-links">
+      <h1>Featured <span class="highlight">Projects</span></h1>
+      <ul>
+        <li>🌐 <strong>AI-Driven eDoctor Platform:</strong> An intelligent healthcare web app using HTML, CSS, JS (frontend) and Machine Learning (backend) to predict diseases from symptoms and suggest relevant medicines instantly.</li>
+        <strong>Link:</strong>
+        <a href="https://github.com/chanduravipati/AI-Drive-EDM-.git" target="_blank">🌐 Github-Repo</a><br><br>
+
+        <li>☀️ <strong>Weather Forecast App:</strong> A responsive weather application that fetches real-time temperature using APIs based on your current location or searched city — clean UI, fast, and accurate.</li>
+        <strong>Link:</strong> 
+        <a href="https://chanduravipati.github.io/weatherapp/" target="_blank">🌐 Application-Link</a><br><br>
+
+        <li>🔐 <strong>Smart Password Generator:</strong> A secure password generator built with Python, HTML, CSS, and JS that creates strong passwords and checks their strength dynamically — privacy-first and user-friendly.</li>
+        <strong>Link:</strong> 
+        <a href="https://github.com/chanduravipati/password_generater.git" target="_blank">💻 GitHub-Repo</a>
+      </ul>
+    </div>
+
+    <div class="avatar">
+      <img src="assets/projects.png" alt="Projects" />
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
